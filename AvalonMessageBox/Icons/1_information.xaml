@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is NOT compatible with Silverlight-->
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" x:Key="InformationIcon"
+             Stretch="Uniform">
+        <Canvas Name="svg2248" Width="16.712725" Height="16.712733">
+            <Canvas.RenderTransform>
+                <TranslateTransform X="0" Y="0" />
+            </Canvas.RenderTransform>
+            <Canvas.Resources>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="d"
+                                     MappingMode="Absolute" StartPoint="315,370" EndPoint="332,387">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#E12B1C" Offset="0" />
+                            <GradientStop Color="#980B00" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.45804666 0 0 0.45804666 -47.748281 -38.450669" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="f"
+                                     MappingMode="Absolute" StartPoint="182,217" EndPoint="195,232">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#B9FFFFFF" Offset="0" />
+                            <GradientStop Color="#FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.26458333 0 0 0.26458333 50.819593 74.312101" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="a"
+                                     MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#B9FFFFFF" Offset="0" />
+                            <GradientStop Color="#FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="g"
+                                     MappingMode="Absolute" StartPoint="303,378" EndPoint="311,391">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#FFFFFF" Offset="0" />
+                            <GradientStop Color="#00FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.5164402 0 0 0.48730958 -61.951114 -54.942147" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="b"
+                                     MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#FFFFFF" Offset="0" />
+                            <GradientStop Color="#00FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="e"
+                                     MappingMode="Absolute" StartPoint="315,370" EndPoint="332,387">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#1C97E1" Offset="0" />
+                            <GradientStop Color="#006798" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.45804666 0 0 0.45804666 -48.929164 -38.457449" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="c"
+                                     MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#1C97E1" Offset="0" />
+                            <GradientStop Color="#006798" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="h"
+                                     MappingMode="Absolute" StartPoint="303,378" EndPoint="311,391">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#FFFFFF" Offset="0" />
+                            <GradientStop Color="#00FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.5164402 0 0 0.48730958 -63.131997 -54.948927" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="i"
+                                     MappingMode="Absolute" StartPoint="787,302" EndPoint="818,339">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#B9FFFFFF" Offset="0" />
+                            <GradientStop Color="#FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.18666883 0 0 0.2531401 -49.781122 53.551405" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="m"
+                                     MappingMode="Absolute" StartPoint="621,387" EndPoint="649,425">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#FFFD26" Offset="0" />
+                            <GradientStop Color="#967F00" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.28082875 0 0 0.24926925 -78.889056 33.59472" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="n"
+                                     MappingMode="Absolute" StartPoint="714,328" EndPoint="745,359">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#FFFFFF" Offset="0" />
+                            <GradientStop Color="#00FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.23858273 0 0 0.29342291 -78.889056 33.59472" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="o"
+                                     MappingMode="Absolute" StartPoint="787,302" EndPoint="818,339">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#B9FFFFFF" Offset="0" />
+                            <GradientStop Color="#FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.17088114 0 0 0.23173002 -36.254099 61.039949" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="j"
+                                     MappingMode="Absolute" StartPoint="441,-153" EndPoint="512,-154">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#1C97E1" Offset="0" />
+                            <GradientStop Color="#006798" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.18708867 0.18708867 -0.18708867 0.18708867 -19.342907 74.11684" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="k"
+                                     MappingMode="Absolute" StartPoint="1313,238" EndPoint="1333,259">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#B9FFFFFF" Offset="0" />
+                            <GradientStop Color="#FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.16896291 0 0 0.41431104 -124.93018 31.545383" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+                <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="l"
+                                     MappingMode="Absolute" StartPoint="409,200" EndPoint="434,238">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#FFFFFF" Offset="0" />
+                            <GradientStop Color="#00FFFFFF" Offset="1" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                    <LinearGradientBrush.Transform>
+                        <MatrixTransform Matrix="0.26458333 0 0 0.26458333 -19.342906 74.116841" />
+                    </LinearGradientBrush.Transform>
+                </LinearGradientBrush>
+            </Canvas.Resources>
+            <!--Unknown tag: sodipodi:namedview-->
+            <Canvas Name="layer1">
+                <Canvas.RenderTransform>
+                    <TranslateTransform X="-90.467801" Y="-126.16579" />
+                </Canvas.RenderTransform>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path2202" Fill="#FF166496"
+                      StrokeThickness="0.264583">
+                    <Path.Data>
+                        <PathGeometry
+                            Figures="m 99.946697 126.63076 6.768863 6.76887 a 1.5875 1.5875 0 0 1 0 2.24506 l -6.768863 6.76887 a 1.5875 1.5875 0 0 1 -2.245063 0 l -6.768867 -6.76887 a 1.5875 1.5875 0 0 1 0 -2.24506 l 6.768867 -6.76887 a 1.5875 1.5875 0 0 1 2.245063 0"
+                            FillRule="NonZero" />
+                    </Path.Data>
+                </Path>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path2204" Fill="{StaticResource j}"
+                      StrokeThickness="0.314193" Stroke="#FFFFFFFF">
+                    <Path.Data>
+                        <PathGeometry
+                            Figures="m 99.385431 127.0648 6.895529 6.89553 a 0.79374999 0.79374999 0 0 1 0 1.12253 l -6.895529 6.89553 a 0.79374999 0.79374999 0 0 1 -1.122531 0 l -6.895529 -6.89553 a 0.79374999 0.79374999 0 0 1 0 -1.12253 L 98.2629 127.0648 a 0.79374999 0.79374999 0 0 1 1.122531 0"
+                            FillRule="NonZero" />
+                    </Path.Data>
+                </Path>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path2206" Fill="{StaticResource k}"
+                      StrokeThickness="0.264583">
+                    <Path.Data>
+                        <PathGeometry
+                            Figures="m 99.648155 132.46276 h -0.427673 c -0.767291 0.13836 -1.18237 0.20125 -1.849014 0.25156 v 0.37735 l 0.251569 0.0252 c 0.654076 0.0629 0.830183 0.28929 0.830183 1.04401 v 2.95593 c 0 0.69181 -0.226412 0.98113 -0.77986 1.04402 l -0.314457 0.0252 v 0.37735 h 3.371057 v -0.37735 l -0.30189 -0.0252 c -0.566023 -0.0629 -0.77986 -0.35219 -0.77986 -1.04402 v -4.65402 m -0.578617 -2.12574 c -0.427672 0 -0.767292 0.33962 -0.767292 0.75469 0 0.42768 0.33962 0.7673 0.754698 0.7673 0.427672 0 0.767292 -0.33962 0.767292 -0.7547 0 -0.41508 -0.33962 -0.76729 -0.754698 -0.76729"
+                            FillRule="NonZero" />
+                    </Path.Data>
+                </Path>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path2208" Fill="{StaticResource l}"
+                      StrokeThickness="0.264583">
+                    <Path.Data>
+                        <PathGeometry
+                            Figures="m 98.822655 126.82978 c -0.202899 0 -0.406771 0.076 -0.56224 0.23151 l -6.895571 6.89557 c -0.310938 0.31094 -0.310938 0.81354 0 1.12448 l 4.4069 4.4069 c 0.01127 -4.59502 3.106738 -8.35158 7.094006 -8.94609 l -3.480856 -3.48086 c -0.155471 -0.15547 -0.35933 -0.23151 -0.562239 -0.23151 z"
+                            FillRule="NonZero" />
+                    </Path.Data>
+                </Path>
+            </Canvas>
+        </Canvas>
+    </Viewbox>
+</ResourceDictionary>

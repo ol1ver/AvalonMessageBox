@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <UseWpf>true</UseWpf>
+        <Authors>Oliver Kleinert</Authors>
+        <Description>A MessageBox alternative for WPF.</Description>
+        <Copyright>Copyright (c) 2022 Oliver Kleinert</Copyright>
+        <TargetFramework>netcoreapp3.1-windows</TargetFramework>
+        <UseWpf>true</UseWpf>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>AvalonMessageBox</Title>
+        <PackageTags>WPF MessageBox message box avalon</PackageTags>
+    </PropertyGroup>
+
+</Project>
