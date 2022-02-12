@@ -83,7 +83,7 @@ namespace AvalonMessageBox
         /// </summary>
         /// <param name="returnValue">A value that <see cref="Show"/> will return when the user has clicked it.</param>
         /// <returns>The MessageBoxBuilder, so you can chain multiple method calls.</returns>
-        public MessageBoxBuilder<TReturn> CloseButton(object returnValue)
+        public MessageBoxBuilder<TReturn> CloseButton(TReturn returnValue)
         {
             closeButtonReturnValue = new Optional<object>(returnValue);
             return this;
