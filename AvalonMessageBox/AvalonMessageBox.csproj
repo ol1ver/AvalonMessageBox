@@ -13,6 +13,10 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>AvalonMessageBox</Title>
         <PackageTags>WPF MessageBox message box avalon</PackageTags>
+        <PackageProjectUrl>https://github.com/ol1ver/AvalonMessageBox</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/ol1ver/AvalonMessageBox/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/ol1ver/AvalonMessageBox</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
 </Project>
