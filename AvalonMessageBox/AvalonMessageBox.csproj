@@ -17,6 +17,12 @@
         <PackageLicenseUrl>https://github.com/ol1ver/AvalonMessageBox/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/ol1ver/AvalonMessageBox</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 </Project>
