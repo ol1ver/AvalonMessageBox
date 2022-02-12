@@ -17,7 +17,7 @@ The code above will produce this window:
 A more advanced example with custom buttons and larger UI.
 ```cs
 var option = new MessageBoxBuilder<string>()
-    .Message(@"This is a text.")
+    .Message("This is a text.")
     .Button("An _option to choose", "optA")
     .Button("_Another option", "optB")
     .CloseButton("optC")
