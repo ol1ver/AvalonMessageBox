@@ -7,7 +7,7 @@
         <Authors>Oliver Kleinert</Authors>
         <Description>A MessageBox alternative for WPF.</Description>
         <Copyright>Copyright (c) 2022 Oliver Kleinert</Copyright>
-        <TargetFramework>netcoreapp3.1-windows</TargetFramework>
+        <TargetFrameworks>netcoreapp3.1-windows;net5.0-windows;net6.0-windows</TargetFrameworks>
         <UseWpf>true</UseWpf>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -18,11 +18,13 @@
         <RepositoryUrl>https://github.com/ol1ver/AvalonMessageBox</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.2</PackageVersion>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
+        <FileVersion>1.0.2</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 </Project>
