@@ -9,16 +9,18 @@ namespace AvalonMessageBox
     {
         public LocalizedStrings()
         {
-            using var loader = new Loader();
+            using (var loader = new Loader())
+            {
 
-            Localization.Add(Buttons.Ok, loader.LoadString(800));
-            Localization.Add(Buttons.Cancel, loader.LoadString(801));
-            Localization.Add(Buttons.Abort, loader.LoadString(802));
-            Localization.Add(Buttons.Retry, loader.LoadString(803));
-            Localization.Add(Buttons.Ignore, loader.LoadString(804));
-            Localization.Add(Buttons.Yes, loader.LoadString(805));
-            Localization.Add(Buttons.No, loader.LoadString(806));
-            Localization.Add(Buttons.Close, loader.LoadString(807));
+                Localization.Add(Buttons.Ok, loader.LoadString(800));
+                Localization.Add(Buttons.Cancel, loader.LoadString(801));
+                Localization.Add(Buttons.Abort, loader.LoadString(802));
+                Localization.Add(Buttons.Retry, loader.LoadString(803));
+                Localization.Add(Buttons.Ignore, loader.LoadString(804));
+                Localization.Add(Buttons.Yes, loader.LoadString(805));
+                Localization.Add(Buttons.No, loader.LoadString(806));
+                Localization.Add(Buttons.Close, loader.LoadString(807));
+            }
             // Help 808
             // TryAgain 809
             // Continue 810

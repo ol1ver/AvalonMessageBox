@@ -49,19 +49,28 @@ namespace AvalonMessageBox
         private void OnLoaded(object sender, RoutedEventArgs e)
         {
             var lineCountProperty = typeof(TextBlock).GetProperty("LineCount", BindingFlags.Instance | BindingFlags.NonPublic);
-            var lineCount = (int)lineCountProperty.GetValue(message);
+            var lineCount = (int)lineCountProperty.GetValue(message, new object[0]);
             if (lineCount == 1)
                 message.Margin = new Thickness(0, 8, 0, 0);
 
             IconHelper.RemoveIcon(this);
 
-            var imageResource = icon switch
+            object imageResource;
+            switch (icon)
             {
-                MessageBoxImage.Error => FindResource("ErrorIcon"),
-                MessageBoxImage.Question => FindResource("QuestionIcon"),
-                MessageBoxImage.Warning => FindResource("WarningIcon"),
-                _ => FindResource("InformationIcon")
-            };
+                case MessageBoxImage.Error:
+                    imageResource = FindResource("ErrorIcon");
+                    break;
+                case MessageBoxImage.Question:
+                    imageResource = FindResource("QuestionIcon");
+                    break;
+                case MessageBoxImage.Warning:
+                    imageResource = FindResource("WarningIcon");
+                    break;
+                default:
+                    imageResource = FindResource("InformationIcon");
+                    break;
+            }
 
             iconContent.Content = imageResource;
 

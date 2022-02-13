@@ -102,30 +102,38 @@ namespace AvalonMessageBox
 
         private static bool IsDefaultResultInvalid(MessageBoxResult defaultResult, MessageBoxButton buttons)
         {
-            return defaultResult switch
+            switch (defaultResult)
             {
-                MessageBoxResult.None => false,
-                MessageBoxResult.OK => buttons == MessageBoxButton.YesNo || buttons == MessageBoxButton.YesNoCancel,
-                MessageBoxResult.Cancel => buttons == MessageBoxButton.OK || buttons == MessageBoxButton.YesNo,
-                MessageBoxResult.Yes => buttons == MessageBoxButton.OK || buttons == MessageBoxButton.OKCancel,
-                MessageBoxResult.No => buttons == MessageBoxButton.OK || buttons == MessageBoxButton.OKCancel,
-                _ => throw new ArgumentOutOfRangeException(nameof(defaultResult), defaultResult, null)
-            };
+                case MessageBoxResult.None:
+                    return false;
+                case MessageBoxResult.OK:
+                    return buttons == MessageBoxButton.YesNo || buttons == MessageBoxButton.YesNoCancel;
+                case MessageBoxResult.Cancel:
+                    return buttons == MessageBoxButton.OK || buttons == MessageBoxButton.YesNo;
+                case MessageBoxResult.Yes:
+                case MessageBoxResult.No:
+                    return buttons == MessageBoxButton.OK || buttons == MessageBoxButton.OKCancel;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(defaultResult), defaultResult, null);
+            }
         }
 
         private static MessageBoxResult DetermineDefaultButton(MessageBoxButton buttons, MessageBoxResult defaultResult)
         {
             if (defaultResult != MessageBoxResult.None)
                 return defaultResult;
-            
-            return buttons switch
+
+            switch (buttons)
             {
-                MessageBoxButton.OK => MessageBoxResult.OK,
-                MessageBoxButton.OKCancel => MessageBoxResult.OK,
-                MessageBoxButton.YesNoCancel => MessageBoxResult.Yes,
-                MessageBoxButton.YesNo => MessageBoxResult.Yes,
-                _ => throw new ArgumentOutOfRangeException(nameof(buttons), buttons, null)
-            };
+                case MessageBoxButton.OK:
+                case MessageBoxButton.OKCancel:
+                    return MessageBoxResult.OK;
+                case MessageBoxButton.YesNoCancel:
+                case MessageBoxButton.YesNo:
+                    return MessageBoxResult.Yes;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(buttons), buttons, null);
+            }
         }
 
         private static void AddButtons(MessageBoxBuilder<MessageBoxResult> builder, MessageBoxButton buttons, MessageBoxResult defaultButton)

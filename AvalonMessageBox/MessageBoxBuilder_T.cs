@@ -20,6 +20,8 @@ namespace AvalonMessageBox
         private MessageBoxImage icon;
         private Optional<object> closeButtonReturnValue;
 
+        private delegate TReturn ShowDelegate();
+        
         /// <summary>
         /// Sets the window title.
         /// </summary>
@@ -140,7 +142,7 @@ namespace AvalonMessageBox
         public TReturn Show()
         {
             if (!Application.Current.Dispatcher.CheckAccess())
-                return Application.Current.Dispatcher.Invoke(Show);
+                return (TReturn)Application.Current.Dispatcher.Invoke(new ShowDelegate(Show));
 
             var window = new MessageBoxWindow(closeButtonReturnValue) { Owner = owner };
 
