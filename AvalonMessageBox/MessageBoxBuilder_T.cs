@@ -144,7 +144,7 @@ namespace AvalonMessageBox
             if (!Application.Current.Dispatcher.CheckAccess())
                 return (TReturn)Application.Current.Dispatcher.Invoke(new ShowDelegate(Show));
 
-            var window = new MessageBoxWindow(closeButtonReturnValue) { Owner = owner.IsLoaded ? owner : null };
+            var window = new MessageBoxWindow(closeButtonReturnValue) { Owner = owner?.IsLoaded ?? false ? owner : null };
 
             foreach (var button in buttons)
                 if (button.Text is string s)

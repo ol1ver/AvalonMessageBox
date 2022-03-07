@@ -11,19 +11,23 @@ namespace AvalonMessageBox
         {
             using (var loader = new Loader())
             {
+                AddLocalization(Buttons.Ok, 800);
+                AddLocalization(Buttons.Cancel, 801);
+                AddLocalization(Buttons.Abort, 802);
+                AddLocalization(Buttons.Retry, 803);
+                AddLocalization(Buttons.Ignore, 804);
+                AddLocalization(Buttons.Yes, 805);
+                AddLocalization(Buttons.No, 806);
+                AddLocalization(Buttons.Close, 807);
+                AddLocalization(Buttons.Help, 808);
+                AddLocalization(Buttons.TryAgain, 809);
+                AddLocalization(Buttons.Continue, 810);
 
-                Localization.Add(Buttons.Ok, loader.LoadString(800));
-                Localization.Add(Buttons.Cancel, loader.LoadString(801));
-                Localization.Add(Buttons.Abort, loader.LoadString(802));
-                Localization.Add(Buttons.Retry, loader.LoadString(803));
-                Localization.Add(Buttons.Ignore, loader.LoadString(804));
-                Localization.Add(Buttons.Yes, loader.LoadString(805));
-                Localization.Add(Buttons.No, loader.LoadString(806));
-                Localization.Add(Buttons.Close, loader.LoadString(807));
+                void AddLocalization(Buttons button, int id)
+                {
+                    Localization.Add(button, loader.LoadString(id));
+                }
             }
-            // Help 808
-            // TryAgain 809
-            // Continue 810
         }
 
         public IDictionary<Buttons, string> Localization { get; } = new Dictionary<Buttons, string>();
@@ -42,7 +46,7 @@ namespace AvalonMessageBox
             public string LoadString(int id)
             {
                 LoadString(instance, (uint)id, buffer, buffer.Capacity - 1);
-                return buffer.ToString().Replace('&', '_');
+                return buffer.Replace('&', '_').ToString();
             }
 
             public void Dispose()

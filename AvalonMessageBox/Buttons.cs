@@ -14,6 +14,9 @@ namespace AvalonMessageBox
         Ignore,
         Yes,
         No,
-        Close
+        Close,
+        Help,
+        TryAgain,
+        Continue
     }
 }
